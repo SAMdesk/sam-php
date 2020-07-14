@@ -1,0 +1,28 @@
+{
+  "name": "SAMDesk/sam-php",
+  "description": "SAM PHP Library",
+  "keywords": [
+    "SAM",
+    "api"
+  ],
+  "homepage": "https://github.com/SAMdesk/sam-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SAM and contributors",
+      "homepage": "https://github.com/SAMDesk/sam-php/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "vierbergenlars/simpletest": "*"
+  },
+  "autoload": {
+    "classmap": ["lib/SAM/"]
+  }
+}
